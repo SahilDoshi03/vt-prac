@@ -3,8 +3,9 @@
     "blocks": [
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+* For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
+      "sandbox#home",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -14,7 +15,14 @@
       "newsletter"
     ]
   },
-
+  "sandbox#home": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "initialContent": "<h1 style=\"text-align:center;\">Hello World</h1>",
+      "allowCookies": false
+    }
+  },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {

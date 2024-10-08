@@ -86,6 +86,7 @@
   },
   "product-images": {
     "props": {
+      "hiddenImages":["adidasmenperformancepolosmallblue"],
       "aspectRatio": {
         "desktop": "auto",
         "phone": "16:9"
@@ -127,7 +128,8 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
+      "showValueNameForImageVariation": true,
+      "thumbnailImage": ["adidasmenperformancepolosmallblue"]
     }
   },
 
@@ -181,4 +183,10 @@
       }
     }
   }
+}
+
+
+  firstName:{
+type:string,
+required: true
 }

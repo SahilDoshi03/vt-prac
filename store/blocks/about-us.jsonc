@@ -1,9 +1,9 @@
 {
   "store.custom#about-us": {
-    "blocks": [
-      "flex-layout.row#about-us",
-      "video#about-us"
-    ]
+    "props":{
+      "Page":"flex-layout.row#about-us",
+      "Video":"video#about-us"
+    }
   },
 
   "flex-layout.row#about-us": {
