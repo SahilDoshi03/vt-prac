@@ -6,11 +6,29 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
+      "flex-layout.row#form",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
     ]
   },
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+  "flex-layout.col#form": {
+    "children": [
+      "form"
+    ]
+  },
+  "form": {
+    "props": {
+      "entity": "PersonSahil",
+      "schema": "PersonSahil"
+    }
+  },
+
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
   },
@@ -21,8 +39,7 @@
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
-    },
+      "marginTop": 4 },
     "children": ["breadcrumb"]
   },
   "flex-layout.row#description": {
@@ -108,14 +125,21 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
+      "availability-subscriber",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
+      "wishlist-button#prod-page",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
       "shipping-simulator",
       "share#default"
     ]
+  },
+
+  "wishlist-button#prod-page":{
+    "props":{
+      "AddWishlistBtn":"add-to-list-btn"
+    }
   },
 
   "flex-layout.row#product-name": {
@@ -185,8 +209,3 @@
   }
 }
 
-
-  firstName:{
-type:string,
-required: true
-}
