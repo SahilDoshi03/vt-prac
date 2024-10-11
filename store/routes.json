@@ -8,5 +8,8 @@
   },
   "store.custom#contact-us": {
     "path": "/contact-us"
+  },
+    "store.custom#landing":{
+    "path":"/landing"
   }
 }

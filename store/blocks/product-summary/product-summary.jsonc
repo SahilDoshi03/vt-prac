@@ -82,7 +82,7 @@
   "product-price-savings#summary": {
     "props": {
       "markers": [
-        "discount"
+        "discountSahil"
       ],
       "blockClass": "summary"
     }
